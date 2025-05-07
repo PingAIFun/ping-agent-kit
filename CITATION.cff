@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Ping Agent Kit
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: PingAI
+abstract: >-
+  Connect any AI Agents to Solana Protocols
+keywords:
+  - solana
+  - blockchain
+  - web3
+  - agent
+  - toolkit
+license: Apache-2.0
+version: 1.2.0
+preferred-citation:
+  type: software
+  title: Ping Agent Kit
+  abstract: Connect any AI Agents to Solana Protocols
+  version: 1.2.0
+  date-released: '2024-12-21'
+  license: Apache-2.0
+  authors:
+  - name: PingAI
