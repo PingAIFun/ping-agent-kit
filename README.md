@@ -1,16 +1,12 @@
 <div align="center">
 
-# Solana Agent Kit
+# Ping Agent Kit
 
 ![SAKCover2](https://i.imgur.com/WOBrQep.jpeg)
 
-![NPM Downloads](https://img.shields.io/npm/dm/solana-agent-kit?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/sendaifun/solana-agent-kit?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/sendaifun/solana-agent-kit?style=for-the-badge)
-
 </div>
 
-An open-source toolkit for connecting AI agents to Solana protocols. Now, any agent, using any model can autonomously perform 60+ Solana actions:
+This toolkit streamlines connecting AI to the blockchain — allowing developers to easily create AI-powered applications on Solana.:
 
 - Trade tokens
 - Launch new tokens
@@ -22,9 +18,6 @@ An open-source toolkit for connecting AI agents to Solana protocols. Now, any ag
 - And more...
 
 Anyone - whether an SF-based AI researcher or a crypto-native builder - can bring their AI agents trained with any model and seamlessly integrate with Solana.
-
-[![Run on Repl.it](https://replit.com/badge/github/sendaifun/solana-agent-kit)](https://replit.com/@sendaifun/Solana-Agent-Kit)
-> Replit template created by [Arpit Singh](https://github.com/The-x-35)
 
 ## 🔧 Core Blockchain Features
 
@@ -106,16 +99,14 @@ Anyone - whether an SF-based AI researcher or a crypto-native builder - can brin
 
 ## 📃 Documentation
 
-You can view the full documentation of the kit at [docs.sendai.fun](https://docs.sendai.fun/v0/introduction)
+You can view the full documentation of the kit at [pingai.gitbook.io/pingai](https://pingai.gitbook.io/pingai)
 
 ## Why We Built V2 and Why Upgrade?
-
-The Solana Agent Kit V2 is a major upgrade from V1, to learn why check out our [migration guide](./MIGRATING)
 
 ## 📦 Core Installation
 
 ```bash
-npm install solana-agent-kit
+npm install ping-agent-kit
 ```
 
 ## 📦 Plugin Installation
