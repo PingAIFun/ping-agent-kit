@@ -2,7 +2,7 @@
 
 # Solana Agent Kit
 
-![SAKCover2]([https://github.com/user-attachments/assets/a6072421-8958-4cee-934a-a10ea32ae75e](https://i.imgur.com/WOBrQep.jpeg))
+![SAKCover2](https://i.imgur.com/WOBrQep.jpeg)
 
 ![NPM Downloads](https://img.shields.io/npm/dm/solana-agent-kit?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/sendaifun/solana-agent-kit?style=for-the-badge)
