@@ -113,14 +113,14 @@ npm install ping-agent-kit
 
 You can choose to install any of the plugins listed below or you could choose to install all of them to experience the full power of the Solana Agent Kit.
 
-1. Token plugin (`@solana-agent-kit/plugin-token`): Token operations for SPL tokens such as transferring assets, swapping, bridging, and rug checking.
-2. NFT plugin (`@solana-agent-kit/plugin-nft`): NFT operations for Metaplex NFTs such as minting, listing, and metadata management.
-3. DeFi plugin (`@solana-agent-kit/plugin-defi`): DeFi operations for Solana protocols such as staking, lending, borrowing, and spot and perpetual trading.
-4. Misc plugin (`@solana-agent-kit/plugin-misc`): Miscellaneous operations such as airdrops, price feeds, coingecko token information, and domain registration.
-5. Blinks plugin (`@solana-agent-kit/plugin-blinks`): Blinks operations for Solana protocols such as arcade games and more soon to come.
+1. Token plugin (`@ping-agent-kit/plugin-token`): Token operations for SPL tokens such as transferring assets, swapping, bridging, and rug checking.
+2. NFT plugin (`@ping-agent-kit/plugin-nft`): NFT operations for Metaplex NFTs such as minting, listing, and metadata management.
+3. DeFi plugin (`@ping-agent-kit/plugin-defi`): DeFi operations for Solana protocols such as staking, lending, borrowing, and spot and perpetual trading.
+4. Misc plugin (`@ping-agent-kit/plugin-misc`): Miscellaneous operations such as airdrops, price feeds, coingecko token information, and domain registration.
+5. Blinks plugin (`@ping-agent-kit/plugin-blinks`): Blinks operations for Solana protocols such as arcade games and more soon to come.
 
 ```bash
-npm install @solana-agent-kit/plugin-token @solana-agent-kit/plugin-nft @solana-agent-kit/plugin-defi @solana-agent-kit/plugin-misc @solana-agent-kit/plugin-blinks
+npm install @ping-agent-kit/plugin-token @ping-agent-kit/plugin-nft @ping-agent-kit/plugin-defi @ping-agent-kit/plugin-misc @ping-agent-kit/plugin-blinks
 ```
 
 ## Quick Start
@@ -128,18 +128,18 @@ npm install @solana-agent-kit/plugin-token @solana-agent-kit/plugin-nft @solana-
 Initializing the wallet interface and agent with plugins:
 
 ```typescript
-import { SolanaAgentKit, createVercelAITools, KeypairWallet } from "solana-agent-kit"; // or import createLangchainTools if using langchain
-import TokenPlugin from "@solana-agent-kit/plugin-token";
-import NFTPlugin from "@solana-agent-kit/plugin-nft";
-import DefiPlugin from "@solana-agent-kit/plugin-defi";
-import MiscPlugin from "@solana-agent-kit/plugin-misc";
-import BlinksPlugin from "@solana-agent-kit/plugin-blinks";
+import { PingAgentKit, createVercelAITools, KeypairWallet } from "ping-agent-kit"; // or import createLangchainTools if using langchain
+import TokenPlugin from "@ping-agent-kit/plugin-token";
+import NFTPlugin from "@ping-agent-kit/plugin-nft";
+import DefiPlugin from "@ping-agent-kit/plugin-defi";
+import MiscPlugin from "@ping-agent-kit/plugin-misc";
+import BlinksPlugin from "@ping-agent-kit/plugin-blinks";
 
 const keyPair = Keypair.fromSecretKey(bs58.decode("YOUR_SECRET_KEY"))
 const wallet = new KeypairWallet(keyPair)
 
 // Initialize with private key and optional RPC URL
-const agent = new SolanaAgentKit(
+const agent = new PingAgentKit(
   wallet,
   "YOUR_RPC_URL",
   {
@@ -853,8 +853,6 @@ The repository includes an advanced example of building a multi-agent system usi
   - Manager agent for routing and orchestration
 - Fully typed TypeScript implementation
 - Environment-based configuration
-
-Check out the [LangGraph example](examples/agent-kit-langgraph) for a complete implementation of an advanced Solana agent system.
 
 ## Dependencies
 
