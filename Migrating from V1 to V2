@@ -179,4 +179,5 @@ Pretty simple, right? You can use the `createVercelAITools` function to create a
 
 With the key differences between V1 and V2 in mind, you should be able to migrate your existing code to V2 with ease. We kept the migration process in mind that's why we tried to keep the API as similar as possible.
 
+
 If you have any questions or need help with the migration process or creating your own plugins, feel free to reach out to us on [X](https://x.com/sendaifun) or Github. We're here to help you make the most of the Solana Agent Kit and its new features.
