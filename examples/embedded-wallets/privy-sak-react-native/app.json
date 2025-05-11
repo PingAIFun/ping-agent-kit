@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Privy SAK React Native",
+    "slug": "privy-sak-react-native",
+    "scheme": "privysakreactnative",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.bhu1tyagi.privysakreactnative",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.bhu1tyagi.privysakreactnative",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "We need access to your photos to let you pick images."
+      },
+      "appleTeamId": "YY25LDG49N"
+    },
+    "newArchEnabled": false
+  }
+}
