@@ -67,6 +67,7 @@ const agent = new pingagentkit(wallet, RPC_URL, {})
   .use(DefiPlugin)
 ```
 
+
 ### Creating your own plugins
 
 You can create your own plugins by implementing the `Plugin` interface. The `Plugin` interface is a simple interface that defines the methods and actions a plugin implements. You can use the `Plugin` interface to create a plugin.
